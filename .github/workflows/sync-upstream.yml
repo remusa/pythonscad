@@ -13,7 +13,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           # Follow the fork's own default branch (some forks use master, not main).
           ref: ${{ github.event.repository.default_branch }}
